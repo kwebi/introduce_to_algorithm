@@ -1,0 +1,7 @@
+**/*.rs.bk
+/*/target
+/*/.vscode
+/*/.idea
+/*/.git
+/*/.gitignore
+
