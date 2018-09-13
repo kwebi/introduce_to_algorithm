@@ -20,8 +20,11 @@ fn partition(arr: &mut [i32], p: usize, r: usize) -> usize {
 }
 
 fn main() {
-    let mut arr = [4,1,3,5,2,9,6,8,7];
+    let mut arr = [4,1,3,5,2,9,6,8,7,1,2,10,8];
     let len = arr.len();
     quick_sort(&mut arr, 0, len-1);
+    let mut arr2 = [4,1,3,5,2,9,6,8,7,1,2,10,8];
+    arr2.sort();
     println!("{:?}", arr);
+    println!("{:?}", arr2);
 }
