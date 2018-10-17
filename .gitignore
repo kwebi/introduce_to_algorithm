@@ -1,7 +1,8 @@
 **/*.rs.bk
 /*/target
-/*/.vscode
+/**/.vscode
 /*/.idea
 /*/.git
 /*/.gitignore
+/**/build
 
